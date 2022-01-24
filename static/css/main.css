@@ -58,14 +58,14 @@
 label #btn, label #cancel {
     position: absolute;
     cursor: pointer;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
 
 label #btn {
     left: 40px;
     top: 25px;
-    font-size: 2em;
+    font-size: 1.5em;
     color: white;
     background-color: black;
     padding: 6px 12px;
@@ -78,9 +78,11 @@ label #cancel {
     left: -195px;
     top: 30px;
     font-size: 2em;
-    color: black;
+    color: rgb(247, 241, 241);
     padding: 4px 9px;
     transition: all .4s ease;
+    background-color: rgb(24, 24, 24);
+    border-radius: 5px;
 }
 
 
