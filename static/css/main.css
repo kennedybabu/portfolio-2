@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Montserrat:wght@100;300;400;500;600;700&family=Nunito+Sans:wght@200;300;400;600&family=Nunito:ital,wght@0,400;0,700;1,200&family=Poppins:wght@100;300;500&display=swap');
+
+
 * {
     list-style: none;
     text-decoration: none;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -32,7 +40,7 @@
 .content h1 {
     font-size: 4rem;
     margin-bottom: 0;
-    font-weight: normal;
+    font-weight: 700;
 }
 
 
