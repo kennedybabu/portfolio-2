@@ -30,6 +30,24 @@
 
     tl.from('.home', {scale: 0.6, duration:2, opacity:0, ease: Expo.easeOut, delay: .2})
       .to('.text-reveal', {clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0% 100%)', y:0, stagger:.3, duration:1 }, '-=2.9')
+
+
+    const primaryNav = document.querySelector('#primary-navigation');
+    const navToggle = document.querySelector('.mobile-nav-toggle');
+
+
+    navToggle.addEventListener('click', ()=> {
+        const visibility = primaryNav.getAttribute('data-visible')
+
+        if (visibility === 'false'){
+            primaryNav.setAttribute('data-visible', true)
+            navToggle.setAttribute('aria-expanded', true)
+        } else {
+            primaryNav.setAttribute('data-visible', false)
+            navToggle.setAttribute('aria-expanded', false)
+
+        }
+    })
 </script>
 </body>
 </html>
