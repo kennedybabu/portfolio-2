@@ -68,7 +68,7 @@ nav ul li a {
 
 .content p {
     font-size: 1.3rem;
-    letter-spacing: 5px;
+    letter-spacing: 8px;
 }
 
 
@@ -149,4 +149,14 @@ nav ul li a {
 -moz-box-shadow: -4px 5px 29px -12px rgba(0,0,0,0.75);
     }
 }
+
+
+
+/* about section */
+
+.about,
+.projects {
+    margin-top: 4em;
+}
+
 
