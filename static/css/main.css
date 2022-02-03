@@ -10,6 +10,14 @@
 }
 
 
+:root {
+    --space-cadet: #2B2D42;
+    --manatee: #8D99AE;
+    --alice-blue: #EDF2F4;
+    --imperial-red: #EF233C;
+    --amaranth-red: #D90429;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
@@ -161,6 +169,24 @@ nav ul li a {
 .about,
 .projects {
     height: 100vh;
+    min-width: 100vw;
+}
+
+.about {
+    background: #edf2f4;
+}
+
+
+.contact {
+    background: #edf2f4;
+
+}
+
+
+#contact > footer > div.container > div > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
